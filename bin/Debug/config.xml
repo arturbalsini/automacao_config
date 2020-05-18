@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Arm1>
+    <GeneralPurpose ID="100">
+      <Parameter ID="101" Description="Permissive Sense" Value="NA" />
+      <Parameter ID="102" Description="Permissive Message" Value="" />
+      <Parameter ID="103" Description="Permissive Restart" Value="Manual" />
+      <Parameter ID="104" Description="Load Arm ID" Value="Arm 1" />
+      <Parameter ID="105" Description="Ready Message" Value="fdgfdgdfgfdgdh" />
+      <Parameter ID="106" Description="Bay Assignment" Value="independent" />
+      <Parameter ID="107" Description="Unlimited Preset" Value="No" />
+      <Parameter ID="108" Description="Transaction Reset Time" Value="0" />
+    </GeneralPurpose>
+    <FlowControl id="200">
+      <Parameter ID="201" Description="Low Flow Start Rate" Value="0.0" />
+      <Parameter ID="202" Description="High Flow Rate" Value="0" />
+      <Parameter ID="203" Description="Start Stop Delay" Value="0" />
+      <Parameter ID="204" Description="Valve Delay Open" Value="0" />
+      <Parameter ID="205" Description="Pump Delay Off" Value="NA" />
+      <Parameter ID="206" Description="Clean Line Amount" Value="0" />
+      <Parameter ID="207" Description="Ratio Factor Adjust" Value="0.0" />
+      <Parameter ID="208" Description="Block Valve Position" Value="Always Close" />
+    </FlowControl>
+    <VolumeAccuracy id="300">
+      <Parameter ID="301" Description="Blend Tolerance (Pct)" Value="0.0" />
+      <Parameter ID="302" Description="Blend Tolerance (Amt)" Value="0.0" />
+      <Parameter ID="303" Description="Blend Correction" Value="No Correction" />
+      <Parameter ID="304" Description="Blend Alarm Timeout" Value="0" />
+      <Parameter ID="305" Description="Blend Error Reset" Value="Batch Start" />
+      <Parameter ID="306" Description="Blend Algorithm" Value="Ratio Adj Factor" />
+      <Parameter ID="307" Description="Ratio Product Minimum Flow" Value="Maintain min rate" />
+      <Parameter ID="308" Description="Minimum Valve Close Time" Value="0" />
+    </VolumeAccuracy>
+  </Arm1>
+</Config>
